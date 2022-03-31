@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style rel="stylesheet">
+        table,
+        thead,
+        th,
+        tr,
+        td {
+            border: blue 1px solid;
+            border-spacing: 0;
+        }
+        
+        thead {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <th>Nom</th>
+            <th>Outils</th>
+            <th>Maîtrise</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Pascaline</td>
+                <tr>
+                    <td>HTML</td>
+                    <td>65%</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>30%</td>
+                </tr>
+            </tr>
+            <tr>
+                <td rowspan="3">Kofi</td>
+                <tr>
+                    <td>HTML</td>
+                    <td>50%</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>25%</td>
+                </tr>
+            </tr>
+            <tr>
+                <td>D-CLIC</td>
+                <td colspan="2">Dev Web Web Mobile</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

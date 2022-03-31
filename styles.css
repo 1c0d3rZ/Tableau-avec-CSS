@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #A9D7E9;
+    display: block;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    background-color: #F3F3F3;
+    width: 70%;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 5%;
+}
+
+form>div {
+    display: flex;
+    justify-content: center;
+}
+
+form div div {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+}
+
+form div input {
+    border: 1px black solid;
+    border-radius: 5px;
+    height: 30px;
+    width: auto;
+}
+
+textarea {
+    border: 1px black solid;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+input[type="submit"] {
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    background-color: #1f99fd;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+body form div div label {
+    position: relative;
+    right: 0px;
+}
+
+select {
+    width: 200px;
+    height: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+div :nth-child(2) label {
+    vertical-align: super;
+    padding-left: 13px;
+}
+
+form div :nth-child(1) :nth-child(1) {
+    text-align: right;
+}
